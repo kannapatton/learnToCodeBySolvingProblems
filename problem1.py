@@ -26,4 +26,6 @@ print(oneLine)
 newLine = input()
 total_words = newLine.count(' ') + 1
 print(total_words)
-#input collects typed string in the terminal and program returns the space count + 1
+#input collects typed string in the terminal, stores it in the newLine varianble, total_words uses the stored
+# newLine variable to run the count method and add 1 to it
+# print returns the value
