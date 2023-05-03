@@ -9,12 +9,12 @@
 #since we don't want the value of pi to change we'll make it a constant, to do this in python we can
 #use all caps in naming the variable (PI instead of pi)
 # to create an exponent use the ** operator
-PI = 3.141592653589793
+
 # r = input()
 # h = input()
 #input ALWAYS returns a string, so we need to convert this to an int
 #we can use the int function instead and combine int and input into one line like below
-
+PI = 3.141592653589793
 radius = int(input())
 height = int(input())
 volume = (PI * radius ** 2 * height)/3
